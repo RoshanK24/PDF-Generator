@@ -1,0 +1,81 @@
+body {
+  margin: 10%;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: rgb(228, 228, 228);
+  background-image: url(./bg4.jpg);
+  background-size: cover;
+  background-position: center; 
+  background-repeat: no-repeat;
+}
+
+.container {
+  width: 600px; /* Set the desired width here */
+  height: 300px;
+  padding: 20px;
+  background-color: hsla(211, 74%, 58%, 0.221);
+  border-radius: 8px;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.form{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+
+.file-input-label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.p{
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+.file-input {
+  display: block;
+  width: 500px;
+  /* margin: 50px; */
+  padding: 8px;
+  border: 1px solid #000000;
+  border-radius: 4px;
+}
+
+.generate-btn {
+  display: block;
+  width: 500px;
+  height: 50px;
+  margin-left: 10px;
+  margin-top: 30px;
+  background-color: #4caf50;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.generate-btn:disabled {
+  background-color: #45a049;
+  cursor: not-allowed;
+}
+
+
+img {
+  display: block;
+  margin-top: 20px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
